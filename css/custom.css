@@ -19,7 +19,7 @@
     .search{
     margin-top:35%;  
     width: 200px;
-}
+    }    
 }
 
 /* tablet */
@@ -32,6 +32,10 @@
     margin-top:35%;  
     width: 200px;
     }
+    
+    .btn-nav{
+    display: none;
+    }
 }
 
 @media screen and (min-width: 968px) and (max-width: 1024px) {
@@ -43,6 +47,9 @@
     margin-top:35%;  
     width: 200px;
     }
+    .btn-nav{
+    display: none;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -50,12 +57,18 @@
     position: absolute;
     left: 54%;
     }
+    .btn-nav{
+    display: none;
+    }
 }
 
 @media screen and (min-width: 540px) and (max-width: 924px) {
     .header-image{
     position: absolute;
     left: 45%;
+    }
+    .btn-nav{
+    display: none;
     }
 }
 
@@ -75,6 +88,10 @@
     div.desc {
         font-size: 1.3rem;
     }
+    .btn-nav{
+        display: none;
+    }
+    
 }
 /* iPhone 5 in portrait & landscape */
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
@@ -288,4 +305,20 @@ div.info-submit:hover{
     line-height: 30px;
     cursor: pointer;
     
+}
+
+.btn-nav{
+width:40px;
+border:2px solid #ccc;
+text-align:center;
+padding:10px;
+position:fixed;
+bottom:50px;
+right:80px;
+font-family:verdana;
+font-size:12px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-khtml-border-radius: 5px;
 }

@@ -158,7 +158,7 @@
             <p>Copiright &copy; 2014 UKRWOORSERVICE -pellet, tronchetti, legna da ardegre, legname. Tutti i diritti riservati. Bologna, via Cristoforo Colombo 38, P.Iva: 03351311208</p>
             </footer>
             </div>
-        <button id="click" class="btn btn-success" style="position:absolute;">↑</button>
+        <button id="click" class="btn btn-success btn-nav">↑</button>
         </div>
         </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
