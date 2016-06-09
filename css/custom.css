@@ -69,6 +69,12 @@
     address{
         font-size: 15px;
     }
+    div.name {
+        font-size: 2rem;
+    }
+    div.desc {
+        font-size: 1.3rem;
+    }
 }
 /* iPhone 5 in portrait & landscape */
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
@@ -120,10 +126,10 @@ h3 {color: #81a33d;}
 }
 
 .logo > ul > li {
-    font-size: 2.5rem;
+
 }
 .name {
-    font-size: 2.8rem;
+    font-size: 2.7rem;
 }
 .desc {
     font-size: 1.1rem;

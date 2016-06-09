@@ -15,6 +15,16 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function (){
+            $("#click").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#div1").offset().top
+                }, 2000);
+            });
+        });
+    </script>
 </head>
 <body>
 <!--header-->
@@ -22,7 +32,7 @@
         <div class="row">
         <img class="header-image" src="img/leaves.png" alt="">
         <div class="col-md-9 logo">
-            <div class="logo-img"></div> 
+            <div id="div1" class="logo-img"></div> 
             <div class="name">UKRWOODSERVICE</div>
 		    <div class="desc">pellet - tronchetti - legna da ardere</div> 
         </div>
@@ -148,7 +158,7 @@
             <p>Copiright &copy; 2014 UKRWOORSERVICE -pellet, tronchetti, legna da ardegre, legname. Tutti i diritti riservati. Bologna, via Cristoforo Colombo 38, P.Iva: 03351311208</p>
             </footer>
             </div>
-        
+        <button id="click" class="btn btn-success" style="position:absolute;">↑</button>
         </div>
         </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
