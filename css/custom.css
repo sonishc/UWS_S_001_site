@@ -1,0 +1,339 @@
+@media (min-width: 1200px) {
+  .main{
+    width: 980px;
+    background-image: url(../img/background-container.jpg); 
+    background-size: 100%;
+    height: auto;
+    -webkit-box-shadow: 0px 20px 43px 12px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 20px 43px 12px rgba(0,0,0,1);
+    box-shadow: 0px 20px 43px 12px rgba(0,0,0,1);
+  }
+}
+
+/*@media all and (orientation: landscape), all and (max-width: 320px) {
+    .header-image{
+    position: absolute;
+        left: 0%;
+    }
+}
+@media all and (orientation: landscape), all and (min-width: 960px) {
+    .header-image{
+    position: absolute;
+    left: 59%;
+ 
+    }
+}
+*/
+/* monitors and laptops */
+@media screen and (min-width: 1240px)  {
+    .header-image{
+    position: absolute;
+    left: 58%;
+    }
+    .search{
+    margin-top:35%;  
+    width: 200px;
+}
+}
+
+/* tablet */
+@media screen and (min-width: 1024px) and (max-width: 1240px)  {
+    .header-image{
+    position: absolute;
+    left: 54%;
+    }
+    .search{
+    margin-top:35%;  
+    width: 200px;
+    }
+
+}
+
+@media screen and (min-width: 968px) and (max-width: 1024px) {
+    .header-image{
+    position: absolute;
+    left: 54%;
+    }
+    .search{
+    margin-top:35%;  
+    width: 200px;
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .header-image{
+    position: absolute;
+    left: 54%;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 540px) and (max-width: 924px) {
+    .header-image{
+    position: absolute;
+    left: 45%;
+ 
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+
+}
+
+
+/* mobile */
+@media screen and (max-width: 768px) {
+    .header-image{
+    position: absolute;
+    width: 70%;
+    left:30%;
+    }
+    address{
+        font-size: 15px;
+    }
+    .name{
+
+        
+    }
+    .desc{
+        
+    }
+    }
+
+
+
+/* iPhone 5 in portrait & landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+    .header-image{
+    position: absolute;
+    width: 100%;
+    left:0%;
+}
+}
+html { font-size: 100%; } /* Браузерное умолчание, т.е. 16px  */   
+body {
+    background-image: url(../img/background.jpg); 
+    background-attachment: fixed;
+}
+hr {
+    width: auto; 
+    margin-left: auto; 
+    margin-right: auto; 
+    height: 1px;
+    background-color: #603813;
+}
+
+h3 {
+    color: #81a33d;
+}
+
+.container {
+    background-image: url(../img/background-container.jpg); 
+    background-size: 100%;
+}
+
+.header {
+    height: auto;
+}
+
+.header-image{
+   /* position: absolute;
+    left: 59%;*/
+}
+
+.logo{
+    display: inline-block;
+    margin-top:5%;    
+}
+
+.logo h1{
+    
+    color: #243841;
+}
+
+.logo ul{
+    display: inline-block;
+    color: #243841;
+    list-style: none;   
+    margin-left: -5%;
+    vertical-align:middle;
+    font-family: Myriad Pro; 
+}
+
+.logo > ul > li {
+    font-size: 2.5rem;
+}
+.name {
+    font-size: 2.8rem;
+}
+.desc {
+    font-size: 1.1rem;
+}
+
+.logo-img{
+    display: inline-block;
+    vertical-align:middle;
+    background-image: url(../img/logo.png);
+    background-size: 100%;
+    width: 90px;
+    height: 90px;
+    float: left;
+      
+}
+
+.logo h4{
+    display: inline-block;
+    color: #231f20;
+}
+
+.search{
+    width: 200px;
+}
+
+
+.form-control {
+    display: table-row;
+    border: 0;
+    background-color: rgba(255,255,255, 0.7);
+    border:dotted 0px #000000;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
+ 
+}
+
+.input-group-addon {
+    border: 0;
+    background-color: rgba(255,255,255, 0.7);
+    border:dotted 0px #000000;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
+    cursor: pointer;
+}
+.input-group {
+      vertical-align: middle;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #81a33d;
+}
+
+.navbar-nav li a{
+    font-weight: 600;
+    font-family: Myriad Pro;
+    letter-spacing: 1pt;
+    font-size: 14pt;
+}
+
+
+/*=========================
+  Icons
+ ================= */
+
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+    width: 25px;
+	font-size: 20px;
+    background-color: #81A33D;
+    top: 10px;
+    right: 25px;
+}
+.social-circle li a:hover {
+    background-color: #81A33D;
+}
+.social-circle li i {
+	margin:0;
+	line-height:15px;
+	text-align: center;
+}
+.social-network{
+    float: right;
+    margin-left: 22%;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.social-user{
+
+}
+.row {
+    margin:0;
+}
+
+.left-info {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+div.info-submit {
+    margin: 0 auto;
+    color: white;
+    width: 137px;
+    height: 35px;
+    background-image: url(../img/btn-green.png);
+    background-repeat: no-repeat;
+    border: 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    cursor: pointer;
+}
+div.info-submit:hover{
+    margin: 0 auto;
+    color: white;
+    width: 137px;
+    height: 35px;
+    background-image: url(../img/btn-orange.png);
+    background-repeat: no-repeat;
+    border: 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    cursor: pointer;
+    
+}
